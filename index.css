@@ -1,0 +1,40 @@
+div {
+    border: 1px solid red;
+}
+html {
+    font-family: helvetica, arial, sans-serif;
+}
+
+.logo {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+}
+
+.hero {
+    background-color: #1f2937;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.link-container {
+    display: flex;
+}
+
+.header-text {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+.hero-link {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-box {
+    width: 700px;
+    height: 300px;
+}
