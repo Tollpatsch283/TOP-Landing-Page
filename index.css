@@ -1,6 +1,7 @@
 div {
     border: 1px solid red;
 }
+
 html {
     font-family: helvetica, arial, sans-serif;
 }
@@ -37,4 +38,33 @@ html {
 .hero-box {
     width: 700px;
     height: 300px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.features-container {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+h4 {
+    font-size: 36px;
+    color: #1F2937
+}
+.box {
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+    height: 200px;
+    width: 200px;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
 }
