@@ -44,6 +44,8 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    height: 600px;
 }
 .features-container {
     display: flex;
@@ -53,8 +55,10 @@ html {
 
 h4 {
     font-size: 36px;
-    color: #1F2937
+    color: #1F2937;
+    font-weight: 900;
 }
+
 .box {
     border: 5px solid #3882F6;
     border-radius: 20px;
@@ -67,4 +71,53 @@ h4 {
     flex-direction: column;
     align-items: center;
     width: 200px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    background-color: #E5E7EB;
+}
+
+.quote-box {
+    height: 350px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+}
+.thor {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.thor-box {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cta {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-box {
+    background-color: #3882F6;
+    width: 1000px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
 }
